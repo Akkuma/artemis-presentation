@@ -2338,6 +2338,12 @@ const createQpDerive = (qpStore: QueryParamsStore, props: readonly string[]) => 
   return derive<Record<string, string>, Record<string, string>>(qpSubState);
 };
 ```
+<!--
+Lots of type hair pulling
+Bunch of type help from other libraries
+The core code needed to make this all happen is relatively tiny
+-->
+
 ---
 layout: center
 ---
