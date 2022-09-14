@@ -2351,8 +2351,29 @@ What is an application?
 <vi-clicks>
 
 - Optimistic updates
-- Ability to work toward "multiplayer experience"
+- Ability to work toward "realtime multiplayer experience"
 - Improved types with Opaque types
 - Simpler functions
 
 </vi-clicks>
+
+<!--
+### Optimistic updates
+
+- Improved UX
+
+### Multiplayer
+
+- Sumologic already mentioned running into this issue
+- Data conflicts aren't the norm
+
+### Improved types
+
+- Our UI Models can be typed as we need them
+- Our functions can guarantee the correct id is used
+
+### Simpler functions
+
+- If you work on strings then you don't need an entire class to guarantee the right string
+
+-->
