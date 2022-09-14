@@ -131,7 +131,7 @@ There was a need to amp up development.
 }
 </style>
 
-<p v-click class="strike">The war against the hybrid zombie robots was about to commence</p>
+<p v-click class="strike">The war against the hybrid zombie robots was about to commence.</p>
 
 
 <v-clicks>
@@ -335,6 +335,10 @@ layout: new-section
 ```
 </div>
 </div>
+
+<!--
+Feel free to peruse all those dependencies, but the generally largest changes have been called out
+-->
 
 ---
 layout: center
@@ -2375,5 +2379,4 @@ What is an application?
 ### Simpler functions
 
 - If you work on strings then you don't need an entire class to guarantee the right string
-
 -->
